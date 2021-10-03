@@ -7,13 +7,13 @@ using System.Data.SQLite;
 
 namespace Conveniencia.SQLite
 {
-    class Db
+    public class Db
     {
-        private static SQLiteConnection sqliteConnection;
+        private static SQLiteConnection sqliteConnection;        
 
-        public Db()
+        static Db()
         {
-
+            
         }
 
         private static SQLiteConnection DbConnection()
