@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conveniencia.Dominio", "Conveniencia.Dominio\Conveniencia.Dominio.csproj", "{D51532EE-D9F8-42B7-BCEF-C24C0EB4FE5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conveniencia.Dominio", "Conveniencia.Dominio\Conveniencia.Dominio.csproj", "{D51532EE-D9F8-42B7-BCEF-C24C0EB4FE5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conveniencia.Infra", "Conveniencia.Infra\Conveniencia.Infra.csproj", "{D1519909-B715-4A95-B697-ACCB5FE40386}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conveniencia.Infra", "Conveniencia.Infra\Conveniencia.Infra.csproj", "{D1519909-B715-4A95-B697-ACCB5FE40386}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conveniencia.SQLite", "Conveniencia.SQLite\Conveniencia.SQLite.csproj", "{BECE71CA-6C38-4866-A938-7842E200D31D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conveniencia.SQLite", "Conveniencia.SQLite\Conveniencia.SQLite.csproj", "{BECE71CA-6C38-4866-A938-7842E200D31D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conveniencia.Aplicacao", "Conveniencia.Aplicacao\Conveniencia.Aplicacao.csproj", "{76E8BD6A-29CB-44C3-961C-A4533BE0FD21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conveniencia.Aplicacao", "Conveniencia.Aplicacao\Conveniencia.Aplicacao.csproj", "{76E8BD6A-29CB-44C3-961C-A4533BE0FD21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conveniencia.Testes", "Conveniencia.Testes\Conveniencia.Testes.csproj", "{6BC278CF-44C4-4740-85DA-298066E65903}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conveniencia.Testes", "Conveniencia.Testes\Conveniencia.Testes.csproj", "{6BC278CF-44C4-4740-85DA-298066E65903}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Dominio", "1. Dominio", "{3A5FDA60-11BD-4FAC-90C8-7B406D32C691}"
 EndProject
@@ -27,7 +27,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testes", "Testes", "{9FE1BD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solução", "Solução", "{D597F190-B94C-49BC-B5D4-5EE5ED4962F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conveniencia.WindowsApp", "Conveniencia.WindowsApp\Conveniencia.WindowsApp.csproj", "{B06667AE-696F-4696-9459-1C02E4D87327}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conveniencia.WindowsApp", "Conveniencia.WindowsApp\Conveniencia.WindowsApp.csproj", "{B06667AE-696F-4696-9459-1C02E4D87327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conveniencia.ORM", "Conveniencia.ORM\Conveniencia.ORM.csproj", "{AF626BCC-0C94-4E78-B62E-1012C01C76C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{B06667AE-696F-4696-9459-1C02E4D87327}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B06667AE-696F-4696-9459-1C02E4D87327}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B06667AE-696F-4696-9459-1C02E4D87327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF626BCC-0C94-4E78-B62E-1012C01C76C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF626BCC-0C94-4E78-B62E-1012C01C76C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF626BCC-0C94-4E78-B62E-1012C01C76C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF626BCC-0C94-4E78-B62E-1012C01C76C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +81,7 @@ Global
 		{0204090B-A233-47A3-B806-2C7EFCE4D6CD} = {D597F190-B94C-49BC-B5D4-5EE5ED4962F8}
 		{FF528D8D-C132-43D5-A726-031D05F5A570} = {9EB5D7B3-4250-4030-AB75-F54615F9F7C2}
 		{B06667AE-696F-4696-9459-1C02E4D87327} = {0204090B-A233-47A3-B806-2C7EFCE4D6CD}
+		{AF626BCC-0C94-4E78-B62E-1012C01C76C4} = {FF528D8D-C132-43D5-A726-031D05F5A570}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {675FCE6E-C90E-4CEC-8CED-2199DC4F0904}
