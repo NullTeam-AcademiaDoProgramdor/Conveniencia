@@ -1,4 +1,5 @@
 ﻿using Conveniencia.Dominio.ClienteModule;
+using Conveniencia.Dominio.ProdutoMarcadoModule;
 using Conveniencia.Dominio.ProdutoModule;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -13,6 +14,8 @@ namespace Conveniencia.ORM
     {
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Produto> Produtos { get; set; }
+        public DbSet<ProdutoMarcado> ProdutosMarcados { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder

@@ -1,4 +1,5 @@
-﻿using Conveniencia.Dominio.Shared;
+﻿using Conveniencia.Dominio.ProdutoMarcadoModule;
+using Conveniencia.Dominio.Shared;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,8 @@ namespace Conveniencia.Dominio.ClienteModule
         public double LimiteCredito { get; set; }
         public string CartaoAlimentacao { get; set; }
         public double SaldoDevedor { get; set; }
+
+        public List<ProdutoMarcado> ProdutosMarcados { get; set; }
 
         public Cliente()
         {
