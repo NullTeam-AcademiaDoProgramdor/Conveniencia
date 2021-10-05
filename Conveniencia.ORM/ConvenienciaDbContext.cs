@@ -16,6 +16,11 @@ namespace Conveniencia.ORM
         public DbSet<Produto> Produtos { get; set; }
         public DbSet<ProdutoMarcado> ProdutosMarcados { get; set; }
 
+        public ConvenienciaDbContext()
+        {
+            Database.EnsureCreated();
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder
